@@ -20,8 +20,7 @@ public abstract class Affirmation {
 
     @Override
     public String toString() {
-        return  ": " + (valeur == null ? "indeterminés" : valeur);
+        return description + ": " + (valeur == null ? "indeterminés" : valeur);
     }
-
 }
 
